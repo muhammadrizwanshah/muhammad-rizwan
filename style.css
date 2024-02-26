@@ -1,0 +1,164 @@
+.main{
+    width: 100%;
+    padding: 10px;
+    position: sticky;
+    border-bottom: 2px solid lightgreen;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    height: 80px;
+}
+.main >img{
+    width: 220px;
+}
+.main >ul {
+    display: flex;
+    width: 41%;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+}
+.blue{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    width: 10%;
+    height: 40px;
+}
+.green{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    width: 10%;
+    height: 40px;
+    
+}
+.one{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 95%;
+    
+    
+    
+}
+.top > img{
+    width: 25px;
+
+    
+}
+.top{
+    border-bottom: 1px solid green;
+    height: 40px;
+    padding-top:5px ;
+    padding-left: 30px;
+    background-color: rgba(238,238, 238,1);
+}
+.two {
+    flex-direction: row;
+    
+    
+}
+.three {
+    font-size: 3em;
+    font-weight: bold;
+}
+#green {
+    color: green;
+}
+.one >img {
+    width: 75%;
+    height: 600px;
+    
+}
+#four {
+    font-size: 25px;
+}
+h2 {
+    font-size: 2em;
+    text-align: start;
+    padding-left: 40px;
+    font-weight: bold;
+}
+.container {
+    /* background-color: aqua; */
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    height: 100px;
+
+}
+.first {
+    background-color: rgba(240, 252, 219, 1);
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    
+    
+}
+.second {
+    background-color: rgba(240, 252, 219, 1);
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+}
+.third {
+    background-color: rgba(240, 252, 219, 1);
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+
+}
+.forth {
+    background-color: rgba(240, 252, 219, 1);
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+}
+.fifth {
+    background-color: rgba(240, 252, 219, 1);
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+}
+.sixth {
+    background-color: rgba(240, 252, 219, 1);
+    width: 180px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+
+    
+    
+
