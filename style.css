@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -30,10 +31,23 @@ body {
     font-size: 15px;   
     
 }
-.main>ul>li:hover {
-    text-decoration: underline;
-    color: green;
+.main>ul>li::after{
+    content: '';
+    display:block;
+    width: 0px;
+    height: 1px;
+    background-color: green;
 }
+.main>ul>li:hover::after,::before{
+    
+    width: 55px;
+    transition: 1s;
+    
+}
+.main>ul>li:hover {
+    cursor: pointer;
+}
+
 #home {
     color: rgb(26, 117,187,1);
 }
@@ -114,6 +128,7 @@ h2 {
 
 }
 .first {
+    cursor: pointer;
     margin-right: 30px;
     background-color: rgba(240, 252, 219, 1);
     width: 200px;
@@ -125,6 +140,7 @@ h2 {
     
 }
 .second {
+    cursor: pointer;
     margin-right: 30px;
     background-color: rgba(240, 252, 219, 1);
     width: 180px;
@@ -134,6 +150,7 @@ h2 {
     text-align: center;
 }
 .third {
+    cursor: pointer;
     margin-right: 30px;
     background-color: rgba(240, 252, 219, 1);
     width: 180px;
@@ -144,6 +161,7 @@ h2 {
 
 }
 .forth {
+    cursor: pointer;
     margin-right: 30px;
     background-color: rgba(240, 252, 219, 1);
     width: 180px;
@@ -153,6 +171,7 @@ h2 {
     text-align: center;
 }
 .fifth {
+    cursor: pointer;
     margin-right: 30px;
     background-color: rgba(240, 252, 219, 1);
     width: 180px;
@@ -162,6 +181,7 @@ h2 {
     text-align: center;
 }
 .sixth {
+    cursor: pointer;
     background-color: rgba(240, 252, 219, 1);
     width: 180px;
     height: 130px;
@@ -183,7 +203,7 @@ h1 {
     justify-content:space-evenly;
     align-items: center;
     margin-top: 20px;
-    height: 300px;
+    height: 600px;
     padding-bottom:80px ;
     
 
@@ -197,44 +217,151 @@ color: #ffffff;
 font-size: 20px;
 border-radius: 10px;
 }
+
+
 .up {
-    
-    background-image: url("images/saylani1.jpeg");
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url("images/saylani1.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center;
-    height:200px;
-    padding-top: 120px;
-    padding-left: 5px;
+    height:270px;
+    padding-top: 190px;
+    padding-left: 10px;
+    padding-right: 12px;
     color: #ffffff;
     
     
 }
 .mid {
-    background-image: url("images/saylani2.jpeg");
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url("images/saylani3.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center;
-    height:200px;
-    padding-top: 120px;
-    padding-left: 5px;
+    height:270px;
+    padding-top: 190px;
+    padding-left: 10px;
+    padding-right: 12px;
     color: #ffffff;
 
 }
 .last {
-    background-image: url("images/saylani3.jpeg");
+    cursor: pointer;
+    border-radius: 10px;
+    background-image: url("images/saylani2.jpg");
     background-repeat: no-repeat;
     background-size: 400px;
     background-position: center;
-    height:200px;
-    padding-top: 120px;
-    padding-left: 5px;
+    height:270px;
+    padding-top: 190px;
+    padding-left: 10px;
+    padding-right: 12px;
+    color: #ffffff;
+}
+.element {
+    background-color:black;
+    /* width: 100%; */
+    /* margin-left: 0%; */
+
+}
+.row {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* height: 800px; */
+    display: flex;
+    /* background-color: blue; */
+    justify-content: space-around;
+   
+}
+.logomain {
+    /* background-color: brown; */
+    /* border: 2px solid red; */
+    width: 250px;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+.logo > img {
+    width: 300px;
+    padding: 30px;
+}
+.icon-main {
+    padding-left: 50px;
+}
+.icon-main > img {
+    width: 30px;
+    border-radius: 5px;   
+}
+.about {
+    /* border: 2px solid purple; */
+    /* background-color: blue; */
+    width: 170px;
+   margin-left: 10px;
+   margin-top: 40px;
+}
+.about > ul > li {
+    color: #ffffff;
+    font-size: 12px;
+    list-style-type: none;
+}
+.about > h4 {
+    color: #ffffff;
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.explore{
+    margin-right: 50px;
+    width: 130px;
+   margin-top: 40px;
+  
+    /* background-color: red; */
+}
+.explore > ul > li {
+    color: #ffffff;
+    font-size: 12px;
+    list-style-type: none;
+}
+.explore > h4 {
+    color: #ffffff;
+    padding-left: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.contact {
+    color: #ffffff;
+   margin-top: 40px;
+    width: 200px;
+    margin-right: 120px;
+    font-size: 10px;
+    /* background-color: purple; */
+}
+.contact > h4 {
+    font-size: 17px;
+    font-weight: bold;
+}
+.approved > div > img {
+    /* background-color: blueviolet; */
+    margin-left: 420px;
+    width: 200px;
+}
+.address {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 60px;
+    color: #ffffff;
+}
+.copy {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 60px;
+    margin-top: 10px;
     color: #ffffff;
 }
 
-
-
-    
+   
 
 
 
